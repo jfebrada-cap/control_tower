@@ -1,0 +1,20 @@
+{
+  "compilerOptions": {
+    "target": "es2020",
+    "module": "commonjs",
+    "rootDir": ".",                      
+    "outDir": "dist",                    
+    "esModuleInterop": true,
+    "forceConsistentCasingInFileNames": true,
+    "strict": true,
+    "skipLibCheck": true,
+    "resolveJsonModule": true,
+    "moduleResolution": "node",
+    "baseUrl": ".",                             // Required for paths
+    "paths": {
+      "@accounts": ["lib/accounts/index.ts"],
+      "@account-types": ["lib/accounts/types.ts"]
+    }
+  },
+  "include": ["bin", "lib", "lambda"]
+}

@@ -1,0 +1,8 @@
+{
+    "app": "npx ts-node bin/control-tower.ts",
+    "requireApproval": "never",
+    "context": {
+      "@aws-cdk/core:newStyleStackSynthesis": true
+    }
+  }
+  
