@@ -377,6 +377,3 @@ The deployment includes these security SCPs by default:
 - Deny Root User Actions: Prevents root user API calls
 - Deny S3 Public ACL: Blocks public S3 bucket access
 - Additional policies can be added in the scp/ directory
-
-This Proof of Concept for the Coreless/Banking Landing Zone enables internal assessment and research within the R&D Laboratory.
-Platform Owner: Dr. Nills Bulling — Strategic Product & Business Leader, Digital Transformation
